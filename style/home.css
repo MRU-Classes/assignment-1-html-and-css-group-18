@@ -1,4 +1,3 @@
-/* Hero section for home page */
 .hero {
   background: linear-gradient(135deg, #73bde6, #5aaedc);
   color: #fff;
@@ -15,7 +14,6 @@
   font-size: 1.2em;
 }
 
-/* Style the first letter of a paragraph */
 #mission::first-letter {
   font-size: 2.5em;
   font-weight: bold;

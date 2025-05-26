@@ -1,4 +1,3 @@
-/* Hero for Contact Page */
 .hero-3 {
   background: linear-gradient(135deg, #4a89c5, #2e6dad);
   color: #fff;
@@ -14,7 +13,6 @@
   font-size: 1.1em;
 }
 
-/* Form Layout */
 form {
   background: #fff;
   padding: 30px;
@@ -38,12 +36,10 @@ textarea {
   font-size: 1em;
 }
 
-/* Highlight required fields */
 :required {
   border-color: #f16969;
 }
 
-/* Fieldsets for grouping radios/checkboxes */
 fieldset {
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -55,7 +51,6 @@ legend {
   padding: 0 6px;
 }
 
-/* Button Layout */
 .form-buttons {
   display: flex;
   justify-content: flex-end;
