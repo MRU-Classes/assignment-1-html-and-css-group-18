@@ -1,0 +1,31 @@
+/* Hero section for curriculum/services page */
+.hero-2 {
+  background: linear-gradient(135deg, #609dd4, #4a89c5);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.hero-2 h1 {
+  font-size: 2.3em;
+}
+.hero-2 p {
+  font-size: 1.1em;
+}
+
+/* Contextual selector - target links inside list inside .service-list */
+.service-list ul li a {
+  color: #4a89c5;
+  font-weight: 500;
+}
+.service-list ul li a:hover {
+  text-decoration: underline;
+  color: #2b6fa0;
+}
+
+/* Attribute selector - applies bold to links that open in a new tab */
+[target="_blank"] {
+  font-weight: bold;
+  color: #2a7ab5;
+}
